@@ -1,4 +1,3 @@
-uses: veracode/veracode-uploadandscan-action@0.2.6
 with:
   appname: 'VeraDemo'
   createprofile: false
