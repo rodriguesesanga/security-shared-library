@@ -1,0 +1,7 @@
+uses: veracode/veracode-uploadandscan-action@0.2.6
+with:
+  appname: 'VeraDemo'
+  createprofile: false
+  filepath: '*.py'
+  vid: '${{ secrets.API_ID }}'
+  vkey: '${{ secrets.API_KEY }}'
